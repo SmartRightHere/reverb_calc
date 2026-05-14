@@ -15,20 +15,21 @@
 ## Установка и запуск из исходного кода
 
 1. Клонируйте репозиторий:
-    Bash
     ```Bash
-git clone https://github.com/SmartRightHere/reverb_calc.git
-cd reverb-calculator
+	git clone https://github.com/SmartRightHere/reverb_calc.git
+	cd reverb-calculator
     ```
+	
 2. Установите зависимости:
     Bash
-    ```Bash
-pip install -r requirements.txt
     ```
+	pip install -r requirements.txt
+    ```
+    
 3. Запустите приложение:
 	Bash
-	```Bash
-python main.py
+	```
+	python main.py
 	```
 
 ## Инструкция по сборке в .exe
@@ -36,7 +37,6 @@ python main.py
 Для создания самостоятельного исполняемого файла для Windows выполните следующую команду в терминале:
 
 Bash
-
 ```Bash
 pyinstaller --noconfirm --onefile --windowed --name "Reverb Calculator by Smart" --add-data "venv/Lib/site-packages/customtkinter;customtkinter/" --icon "icon.ico" main.py
 ```
