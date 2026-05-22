@@ -17,7 +17,7 @@
 1. Клонируйте репозиторий:
     ```Bash
 	git clone https://github.com/SmartRightHere/reverb_calc.git
-	cd reverb-calculator
+	cd reverb_calc
     ```
 	
 2. Установите зависимости:
